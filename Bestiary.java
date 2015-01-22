@@ -72,6 +72,18 @@ public class Bestiary {
 
     	CharacterSheet zombie = new CharacterSheet("zombie",12,17,10,10,10,10,10,2,"slam","robe", 100);
     	this.cr3.add(zombie);
+    	CharacterSheet giantCentipede = new CharacterSheet("giantCentipede",5,9,15,12,10,0,2,2,"bite","none",130);
+    	this.cr3.add(giantCentipede);
+    	CharacterSheet hobgoblin = new CharacterSheet("hobgloblin", 17,15,15,16,12,10,8,1,"longsword","none", 150);
+    	this.cr3.add(hobgoblin);
+    	
+    	//add some cr4 opponents they now are cr 1 and 2 opponents from the orignal game
+    	CharacterSheet ghoul = new CharacterSheet("ghoul",13,13,15,0,14,13,14,2, "bite","none", 120);
+    	this.cr4.add (ghoul);
+    	CharacterSheet homunculus = new CharacterSheet("homunculus",11,8,15,0,12,10,7,2,"bite","none", 135);
+    	this.cr4.add (homunculus);
+    	CharacterSheet pseudodragon = new CharacterSheet ("pseudodragon", 15,7,15,13,12,10,10,2, "bite", "none", 160);
+    	this.cr4.add (pseudodragon);
     	
     	//add some even stronger opponents the cr should always be adjusted
     	CharacterSheet cr4dummy = new CharacterSheet("cr4dummy",12,17,10,10,10,10,10,2,"slam","robe", 100);
